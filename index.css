@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: calfont;
+    src: url(calfont.ttf);
+  }
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    border: 2px solid #1B244A;
+    border-radius: 5px;
+    background-color: #1B244A;
+}
+
+h3 {
+    padding-top: 35px;
+    width: 149px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+}
+
+div > .home-number {
+    position: relative;
+    background-color: #080001;
+    border-radius: 7px;
+    text-align: center;
+    
+    font-size: 100px;
+    font-family: calfont, serif;
+    color: #F94F6D;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+}
+
+.all-buttons { 
+    padding: 3px;
+} 
+
+button {
+    border: 2px solid #8693B9;
+    background-color: #1B244A;
+    border-radius: 5px;
+    color: #8693B9;
+    height: 45px;
+    width: 45px;
+}
+
